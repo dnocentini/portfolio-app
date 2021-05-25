@@ -50,13 +50,28 @@ export const TextWrapper = styled.div`
     padding-bottom: 60px;
 `;
 
-export const InfoH1 = styled.h1`
+export const TopLine = styled.p`
     color: #c2185b;
-    font-size: 24px;
-    margin-bottom: 47px;
+    font-size: 18px;
+    margin-bottom: 18px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+`
+
+export const InfoH1 = styled.h1`
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+
+
 
     @media screen and (max-width: 480px) {
-        font-size: 18px;
+        font-size: 28px;
     };
     
 `;
@@ -66,7 +81,7 @@ export const InfoP = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 28px;
-    color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
+    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 
     
 `;

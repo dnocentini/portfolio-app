@@ -5,6 +5,7 @@ import {
     InfoRow,
     Column1,
     TextWrapper,
+    TopLine,
     InfoH1,
     InfoP,
     Column2,
@@ -12,7 +13,7 @@ import {
     Img
 } from './InfoElem';
 
-const InfoSection = ({lightBg, id, imgStart, headingline, lightText, description, img, alt}) => {
+const InfoSection = ({lightBg, id, imgStart, topline, darkText, headingline, lightText, description, img, alt}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -20,8 +21,9 @@ const InfoSection = ({lightBg, id, imgStart, headingline, lightText, description
                     <InfoRow imgStart={imgStart}>
                         <Column1>
                         <TextWrapper>
-                            <InfoH1>{headingline}</InfoH1>
-                            <InfoP lightText={lightText}>{description}</InfoP>
+                            <TopLine>{topline}</TopLine>
+                            <InfoH1 lightText={lightText}>{headingline}</InfoH1>
+                            <InfoP darkText={darkText}>{description}</InfoP>
                         </TextWrapper>
                         </Column1>
                         <Column2>
