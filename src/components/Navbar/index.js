@@ -17,22 +17,22 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>Logo</NavLogo>
+                    <NavLogo to='/'>Ddn.</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLink to="/home">Home</NavLink> 
+                            <NavLink to='home'>Home</NavLink> 
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/about">About</NavLink> 
+                            <NavLink to='about'>About</NavLink> 
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/projects">Projects</NavLink> 
+                            <NavLink to='projects'>Projects</NavLink> 
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/Contact">Contact</NavLink> 
+                            <NavLink to='contact'>Contact</NavLink> 
                         </NavItem>          
                     </NavMenu>
                     <NavBtn>
