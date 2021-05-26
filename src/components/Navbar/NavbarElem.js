@@ -4,9 +4,9 @@ import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #00060e;
     height: 80px;
-    // margin-top: -80px;
+    margin-top: -90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #c2185b;
+    color: #d95c38;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -82,8 +82,9 @@ export const NavLink = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+
     &.active {
-    color: #c2185b;
+        border-bottom: 3px solid #d95c38;
     }
 `;
 
@@ -98,10 +99,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
     border-radius: 50px;
-    background: #c2185b;
+    background: #d95c38;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
+    color: #00060e;
     font-size: 16px;
     outline: none;
     border: none;
@@ -112,7 +113,7 @@ export const NavBtnLink = styled(LinkR)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #010606;
+        color: #00060e;
     }
 `;
 
