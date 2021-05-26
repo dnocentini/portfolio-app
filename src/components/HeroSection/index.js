@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
-import Video from '../../videos/video.mp4';
+import Image from '../../images/ImageBg.jpeg';
 import {Button} from '../ButtonElem';
 import {
     HeroContainer,
     HeroBg,
-    VideoBg,
+    ImageBg,
     HeroContent,
     HeroH1,
     HeroP,
@@ -24,10 +24,10 @@ const HeroSection = () => {
     return (
         <HeroContainer>   
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <ImageBg src={Image} />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Hello, I am Dinny Nocentini</HeroH1>
+                <HeroH1>Hi, I am Dinny Nocentini.</HeroH1>
                 <HeroP>
                     Software Engineer
                 </HeroP>
@@ -39,7 +39,7 @@ const HeroSection = () => {
                         primary='true'
                         dark='true'
                     >
-                        Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
+                        Get in Touch {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
