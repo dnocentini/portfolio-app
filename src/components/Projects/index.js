@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from '../../images/imgP1.jpeg';
-import img2 from '../../images/imgP1.jpeg';
-import img3 from '../../images/imgP1.jpeg';
+import img1 from '../../images/imgP.png';
+import img2 from '../../images/imgP.png';
+import img3 from '../../images/imgP.png';
 import {
     ProjectsContainer,
     ProjectsH1,
