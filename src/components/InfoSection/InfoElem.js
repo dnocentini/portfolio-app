@@ -92,8 +92,8 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-    width: 90%;
+    width: 85%;
     margin: 0 0 10px 0;
     padding-rigth: 0;
-    border-radius: 300px;
+    border-radius: 30px;
 `;
