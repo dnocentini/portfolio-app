@@ -10,3 +10,16 @@ export const homeObjOne = {
     img: require('../../images/me.jpg'),
     alt: 'Photo'
 };
+
+export const homeObjTwo = {
+    id: 'contact',
+    lightBg: false,
+    lightText: true,
+    darkText: false,
+    topline: 'Contact',
+    headingline: 'Get in Touch',
+    description: 'Ready to chat? Lets talk. You can find me on:  ',
+    imgStart: true,
+    img: require('../../images/imgC.png'),
+    alt: 'Photo'
+};
