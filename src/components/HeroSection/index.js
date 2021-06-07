@@ -22,7 +22,7 @@ const HeroSection = () => {
 
 
     return (
-        <HeroContainer>   
+        <HeroContainer id="home">   
             <HeroBg>
                 <ImageBg src={Image} />
             </HeroBg>

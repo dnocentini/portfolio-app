@@ -49,7 +49,6 @@ const Navbar = ({ toggle }) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                                activeClass="active"
                             >Home</NavLink> 
                         </NavItem>
                         <NavItem>
