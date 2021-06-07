@@ -42,16 +42,45 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLink to='home'>Home</NavLink> 
+                            <NavLink 
+                                to='home'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                                activeClass="active"
+                            >Home</NavLink> 
                         </NavItem>
                         <NavItem>
-                            <NavLink to='about'>About</NavLink> 
+                            <NavLink 
+                                to='about'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >About</NavLink> 
                         </NavItem>
                         <NavItem>
-                            <NavLink to='projects'>Projects</NavLink> 
+                            <NavLink 
+                                to='projects'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >Projects</NavLink> 
                         </NavItem>
                         <NavItem>
-                            <NavLink to='contact'>Contact</NavLink> 
+                            <NavLink 
+                                to='contact'
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                exact='true'
+                                offset={-80}
+                            >Contact</NavLink> 
                         </NavItem>          
                     </NavMenu>
                     <NavBtn>
