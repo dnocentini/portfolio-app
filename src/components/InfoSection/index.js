@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import {
     InfoContainer,
     InfoWrapper,
@@ -24,6 +25,9 @@ const InfoSection = ({lightBg, id, imgStart, topline, darkText, headingline, lig
                             <TopLine>{topline}</TopLine>
                             <InfoH1 lightText={lightText}>{headingline}</InfoH1>
                             <InfoP darkText={darkText}>{description}</InfoP>
+                                <a href='https://github.com/dnocentini'> <FaGithub size='1.8em' color='#d95c38'  /></a> 
+                                <a href='https://www.linkedin.com/in/dinny-nocentini/'> <FaLinkedin size='1.8em' color='#d95c38'  /></a>
+                                <a href='mailto: dinny0313@gmail.com' > <FaEnvelope size='1.8em' color='#d95c38' /></a>
                         </TextWrapper>
                         </Column1>
                         <Column2>
