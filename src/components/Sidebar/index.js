@@ -25,7 +25,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <a href={PDF} target="_blank" rel="noopener noreferrer"><IoDocumentText size='2em' color='#d95c38' /> </a>
+                    <a href={PDF} target="_blank" rel="noopener noreferrer"><IoDocumentText size='3em' color='#d95c38' /> </a>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>   
