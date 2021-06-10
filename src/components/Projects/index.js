@@ -18,19 +18,25 @@ const Projects = () => {
             <ProjectsH1>Projects</ProjectsH1>
             <ProjectsWrapper>
                 <ProjectsCard>
-                    <ProjectsImg src={img1}/>
-                    <ProjectsH2>Projectn1</ProjectsH2>
-                    <ProjectsP>aaaa</ProjectsP>
+                    <a href="https://listy-ga.herokuapp.com/users" target="_blank" rel="noopener noreferrer">
+                        <ProjectsImg src={img1}/>
+                    </a>
+                    <ProjectsH2>Listy</ProjectsH2>
+                    <ProjectsP>JS Node Express MongoDB</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
-                    <ProjectsImg src={img2}/>
-                    <ProjectsH2>Projectn2</ProjectsH2>
-                    <ProjectsP>aaaa</ProjectsP>
+                    <a href="https://dnocentini.github.io/flashcard-game/" target="_blank" rel="noopener noreferrer">
+                        <ProjectsImg src={img2}/>
+                    </a>
+                    <ProjectsH2>Flashcard Game</ProjectsH2>
+                    <ProjectsP>HTML CSS JavaScript</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
-                    <ProjectsImg src={img3}/>
-                    <ProjectsH2>Projectn3</ProjectsH2>
-                    <ProjectsP>aaaa</ProjectsP>
+                    <a href="https://artworld-sei.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <ProjectsImg src={img3}/>
+                    </a>
+                    <ProjectsH2>ArtWorld</ProjectsH2>
+                    <ProjectsP>Django Python</ProjectsP>
                 </ProjectsCard>
             </ProjectsWrapper>
         </ProjectsContainer>
