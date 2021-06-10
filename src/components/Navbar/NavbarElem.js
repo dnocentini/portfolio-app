@@ -1,4 +1,3 @@
-//import { FaBars } from 'react-icons/fa';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components';
@@ -97,25 +96,8 @@ export const NavBtn = styled.nav`
     }
 `;
 
-export const NavBtnLink = styled(LinkR)`
-    border-radius: 50px;
-    background: #d95c38;
-    white-space: nowrap;
-    padding: 10px 22px;
-    color: #00060e;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2 ease-in-out;
-    text-decoration: none;
 
-    &:hover {
-        transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #00060e;
-    }
-`;
+
 
 
 

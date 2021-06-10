@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {FaBars} from 'react-icons/fa';
+import {IoDocumentText} from 'react-icons/io5';
 import { animateScroll as scroll} from 'react-scroll';
+import PDF from '../../documents/Resume.pdf'
 import {
     Nav,
     NavbarContainer,
@@ -9,8 +11,7 @@ import {
     NavMenu,
     NavItem,
     NavLink,
-    NavBtn,
-    NavBtnLink
+    NavBtn
 } from './NavbarElem';
 
 const Navbar = ({ toggle }) => {
@@ -83,7 +84,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>          
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/rerume">Resume</NavBtnLink>   
+                        <a href={PDF} target="_blank" rel="noopener noreferrer"><IoDocumentText size='2em' color='#fff' /> </a>
                     </NavBtn>
                 </NavbarContainer>    
             </Nav>
