@@ -1,4 +1,6 @@
 import React from 'react';
+import {IoDocumentText} from 'react-icons/io5';
+import PDF from '../../documents/Resume.pdf'
 import {
     SidebarContainer,
     Icon,
@@ -6,8 +8,7 @@ import {
     SidebarWrapper,
     SidebarMenu,
     SidebarLink,
-    SideBtnWrap,
-    SidebarRoute
+    SideBtnWrap
 } from './SidebarElem';
 
 const Sidebar = ({isOpen, toggle}) => {
@@ -24,7 +25,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to='/resume'>Resume</SidebarRoute>
+                    <a href={PDF} target="_blank" rel="noopener noreferrer"><IoDocumentText size='2em' color='#d95c38' /> </a>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>   
