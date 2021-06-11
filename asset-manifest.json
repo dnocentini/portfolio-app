@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.6c53100d.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.6c53100d.chunk.js.map",
-    "runtime-main.js": "/portfolio-app/static/js/runtime-main.564b1951.js",
-    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.564b1951.js.map",
-    "static/js/2.577f397d.chunk.js": "/portfolio-app/static/js/2.577f397d.chunk.js",
-    "static/js/2.577f397d.chunk.js.map": "/portfolio-app/static/js/2.577f397d.chunk.js.map",
-    "static/js/3.832ed88d.chunk.js": "/portfolio-app/static/js/3.832ed88d.chunk.js",
-    "static/js/3.832ed88d.chunk.js.map": "/portfolio-app/static/js/3.832ed88d.chunk.js.map",
+    "main.css": "/portfolio-app/static/css/main.53f1bb0e.chunk.css",
+    "main.js": "/portfolio-app/static/js/main.63476e97.chunk.js",
+    "main.js.map": "/portfolio-app/static/js/main.63476e97.chunk.js.map",
+    "runtime-main.js": "/portfolio-app/static/js/runtime-main.493a8754.js",
+    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.493a8754.js.map",
+    "static/js/2.c4dd2ed3.chunk.js": "/portfolio-app/static/js/2.c4dd2ed3.chunk.js",
+    "static/js/2.c4dd2ed3.chunk.js.map": "/portfolio-app/static/js/2.c4dd2ed3.chunk.js.map",
     "index.html": "/portfolio-app/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/portfolio-app/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.577f397d.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.577f397d.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/portfolio-app/static/media/logo.6ce24c58.svg"
+    "static/css/main.53f1bb0e.chunk.css.map": "/portfolio-app/static/css/main.53f1bb0e.chunk.css.map",
+    "static/js/2.c4dd2ed3.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.c4dd2ed3.chunk.js.LICENSE.txt",
+    "static/media/ImageBg.c3d46c95.jpeg": "/portfolio-app/static/media/ImageBg.c3d46c95.jpeg",
+    "static/media/Resume.4354d7a0.pdf": "/portfolio-app/static/media/Resume.4354d7a0.pdf",
+    "static/media/imgC.png": "/portfolio-app/static/media/imgC.57a49963.png",
+    "static/media/imgP.f750cc73.png": "/portfolio-app/static/media/imgP.f750cc73.png",
+    "static/media/me.jpg": "/portfolio-app/static/media/me.041db1f8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.564b1951.js",
-    "static/js/2.577f397d.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.6c53100d.chunk.js"
+    "static/js/runtime-main.493a8754.js",
+    "static/js/2.c4dd2ed3.chunk.js",
+    "static/css/main.53f1bb0e.chunk.css",
+    "static/js/main.63476e97.chunk.js"
   ]
 }
