@@ -18,6 +18,13 @@ const Projects = () => {
             <ProjectsH1>Projects</ProjectsH1>
             <ProjectsWrapper>
                 <ProjectsCard>
+                    <a href="https://dnocentini.github.io/mmassage/" target="_blank" rel="noopener noreferrer">
+                        <ProjectsImg src={img1}/>
+                    </a>
+                    <ProjectsH2>M Massage</ProjectsH2>
+                    <ProjectsP>HTML CSS React.js</ProjectsP>
+                </ProjectsCard>
+                <ProjectsCard>
                     <a href="https://listy-ga.herokuapp.com/users" target="_blank" rel="noopener noreferrer">
                         <ProjectsImg src={img1}/>
                     </a>
